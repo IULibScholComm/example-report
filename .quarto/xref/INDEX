@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "97060155"
+  },
+  "intro.qmd": {
+    "intro.html": "626611b3"
+  },
+  "summary.qmd": {
+    "summary.html": "f125d53d"
+  },
+  "references.qmd": {
+    "references.html": "e677892b"
+  },
+  "overview-and-objectives.qmd": {
+    "overview-and-objectives.html": "ec779863"
+  },
+  "knowledge-gaps.qmd": {
+    "knowledge-gaps.html": "d10a2ce8"
+  },
+  "bibliography.qmd": {
+    "bibliography.html": "c44127aa"
+  }
+}
