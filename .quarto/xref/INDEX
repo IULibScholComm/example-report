@@ -19,5 +19,11 @@
   },
   "bibliography.qmd": {
     "bibliography.html": "c44127aa"
+  },
+  "01-overview-and-objectives.qmd": {
+    "01-overview-and-objectives.html": "cf78a546"
+  },
+  "02-knowledge-gaps.qmd": {
+    "02-knowledge-gaps.html": "2f2cfd5b"
   }
 }
