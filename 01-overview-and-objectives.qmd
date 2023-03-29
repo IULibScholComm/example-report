@@ -22,6 +22,7 @@ Land-based carbon removal strategies which harness naturally occurring ecosystem
  
  ![In the bottom of the figure, the length of the bar indicates (qualitatively) the expected carbon mitigation potential, and the color represents uncertainty around this potential. Icons indicating relevant co-benefits. Based largely on information presented in Farigone et al. 201829. The top of the figure highlights some of the most pressing knowledge gaps (see @sec-overview for more detail).](/img/01-nature-climate-solutions.jpg "Title: Terrestrial Nature-based Climate Solutions in the United States."){fig-alt="A Chart of Terrestrial Nature-based Climate Solutions in the United States." #fig-terrestrial-nature-solutions}
  
+ 
  ## Key criteria, limitations, and opportunities 
  
  While there is ample justification for implementing NbCS based on their co-benefits alone, for NbCS to succeed specifically as climate mitigation tools, they must meet four essential criteria:
