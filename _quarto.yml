@@ -1,22 +1,38 @@
 project:
   type: book
-  output-dir: docs
 
 book:
   title: "The science needed for robust,  scalable, and credible  nature-based climate solutions  for the United States: Full Report"
-  author: "Kim Novick, et al."
+  author: 
+    - "Kim Novick (Indiana University)"
+    - "Christopher Williams (Clark University)"
+    - "Benjamin Runkle (University of Arkansas)"
+    - "William Anderegg (University of Utah)"
+    - "Dave Hollinger (USDA Forest Service)"
+    - "Marcy Litvak (University of New Mexico)"
   date: "10/12/2022"
+  cover-image: /img/front-cover.jpg
   chapters:
     - index.qmd
-    - overview-and-objectives.qmd
-    - knowledge-gaps.qmd
+    - 01-overview-and-objectives.qmd
+    - 02-knowledge-gaps.qmd
     - bibliography.qmd
+  site-url: https://amaze2.github.io/quartotest1/
+  repo-url: https://github.com/amaze2/quartotest1/
+  issue-url: https://github.com/amaze2/quartotest1/issues/new/choose
+  repo-actions: [edit, issue]
+  favicon: /img/favicon_io/favicon-16x16.png
+  twitter-card: 
+    image: /img/front-cover.jpg
+    card-style: summary
+  open-graph: true
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    output-dir: docs
   pdf:
     documentclass: scrreprt
 

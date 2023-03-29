@@ -1,5 +1,11 @@
-# Preface {.unnumbered}
+# Front Matter {.unnumbered}
 
-This is a Quarto book.
+**[Web PdF](https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf)**
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This report emerged from a workshop in Washington, DC, June 28-29th, 2022. Workshop funding and programmatic support came from the Department of Energy’s [AmeriFlux Management Project](https://ameriflux.lbl.gov/about/ameriflux-management-project/), [Indiana University’s O’Neill School of Public and Environmental Affairs](https://oneill.indiana.edu/), and the [US Carbon Cycle Science Program](https://www.carboncyclescience.us/).
+
+The views expressed in this report do not necessarily reflect the views of individual contributing authors or their respective institutions. 
+
+**Acknowledgements:** The report authors are grateful for the support provided by the Indiana University O’Neill School of Public and Environmental Affairs (Indiana University - Bloomington), the AmeriFlux Management Project, and the U.S. Carbon Cycle Science Program for supporting the workshop and the writing process. We especially acknowledge Katherine Devich and Nikki Rolf Boyd for logistical support during the workshop, and Christin Buechner for programmatic support leading up to the event. Jeff Atkins, Connor Nolan, Rachel Oidtman, Ann Raiho, and Haley Ritger are gratefully acknowledged for the feedback on an earlier version of the report. We are indebted to the full set of workshop participants for their constructive discussions and engagement, and we acknowledge other members of the AmeriFlux Natural Climate Solutions working group for a series of conversations over the past two years that provided the genesis for this workshop and paper. We are grateful for the creative contributions of William Scavone (Kestrel Studio - kestrelstudio.com), Mike Jackson, and Sean Miller to the report’s graphics and formatting.   
+
+**Recommended Citation:** Novick, K. et al. [The science needed for robust, scalable, and credible  nature-based climate solutions in the United States: Full Report](https://doi.org/10.5967/n7r9-7j83). (2022)
