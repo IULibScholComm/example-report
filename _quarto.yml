@@ -3,38 +3,84 @@ project:
   output-dir: docs
 
 book:
-  title: "The science needed for robust,  scalable, and credible  nature-based climate solutions  for the United States: Full Report"
+  title: "The science needed for robust, scalable, and credible nature-based climate solutions in the United States"
+  subtitle: An Example of a IUB Libraries Scholarly Communication Deparment Published Report
+  description: An example of what Schol Comm pubs look like
+
   author: 
-    - "Kim Novick (Indiana University)"
-    - "Christopher Williams (Clark University)"
-    - "Benjamin Runkle (University of Arkansas)"
-    - "William Anderegg (University of Utah)"
-    - "Dave Hollinger (USDA Forest Service)"
-    - "Marcy Litvak (University of New Mexico)"
+    - name: 
+        given: Kim
+        family: Novick
+        literal: Kim Novick
+      affiliations:
+        - name: Indiana University Bloomington 
+          department: Paul H. O'Neill School of Public and Environmental Affairs
+          address: 107 S. Indiana Avenue
+          city: Bloomington
+          region: IN
+          postal-code: 47405
+          url: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
+      email: amazel@iu.edu
+      orcid: 0000-0001-7241-0891
+    - name:
+        given: Christopher
+        family: Williams
+        literal: Christopher Williams
+      affiliations:
+        - name: Clark University
+          department: Geography
+          address: Jefferson 208
+          city: Worcester
+          region: MA
+          postal-code: 01610-1477
+          url: https://www2.clarku.edu/faculty/facultybio.cfm?id=715
+
   date: "10/12/2022"
+
   cover-image: /img/front-cover.jpg
+
   chapters:
     - index.qmd
     - 01-overview-and-objectives.qmd
     - 02-knowledge-gaps.qmd
     - bibliography.qmd
-  site-url: https://amaze2.github.io/quartotest1/
-  repo-url: https://github.com/amaze2/quartotest1/
-  issue-url: https://github.com/amaze2/quartotest1/issues/new/choose
-  repo-actions: [edit, issue]
-  favicon: /img/favicon_io/favicon.ico
-  twitter-card: 
-    image: /img/front-cover.jpg
-    card-style: summary
-  open-graph: true
 
 bibliography: references.bib
+
+site-url: https://pages.github.iu.edu/amazel/example-report/
+repo-url: https://github.iu.edu/amazel/example-report
+issue-url: https://github.iu.edu/amazel/example-report/issues/new
+repo-actions: [edit, issue]
+pdf-url: https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf
+favicon: /img/favicon_io/favicon.ico
+twitter-card: 
+  image: /img/front-cover.jpg
+  card-style: summary
+open-graph: true
+
+citation:
+  type: document
+  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher-place: Bloomington, IN
+  doi: 10.5967/n7r9-7j83
+
+google-scholar: true
 
 format:
   html:
     theme: litera
+    toc: true
+    toc-title: Contents
+    toc-expand: true
+    number-sections: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    comments:
+      hypothesis: true
+    keywords: example
+    copyright: CC BY
   pdf:
     documentclass: scrreprt
-
-
-
+    keep-tex: true
