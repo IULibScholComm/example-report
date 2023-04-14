@@ -6,7 +6,7 @@ book:
   title: "The science needed for robust, scalable, and credible nature-based climate solutions in the United States"
   subtitle: An Example of a IUB Libraries Scholarly Communication Deparment Published Report
   description: An example of what Schol Comm pubs look like
-
+  doi: "10.5967/n7r9-7j83"
   author: 
     - name: 
         given: Kim
@@ -19,7 +19,8 @@ book:
           city: Bloomington
           region: IN
           postal-code: 47405
-          url: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
+          url: https://www.indiana.edu/
+      url: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
       email: amazel@iu.edu
       orcid: 0000-0001-7241-0891
     - name:
@@ -33,9 +34,12 @@ book:
           city: Worcester
           region: MA
           postal-code: 01610-1477
-          url: https://www2.clarku.edu/faculty/facultybio.cfm?id=715
-
+          url: https://www.clarku.edu/
+      url: https://www2.clarku.edu/faculty/facultybio.cfm?id=715
+    - name: et alia
   date: "10/12/2022"
+  language: en
+  downloads: [pdf, epub]
 
   cover-image: /img/front-cover.jpg
 
@@ -62,7 +66,7 @@ citation:
   type: document
   publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
   publisher-place: Bloomington, IN
-  doi: 10.5967/n7r9-7j83
+  doi: "10.5967/n7r9-7j83"
 
 google-scholar: true
 
