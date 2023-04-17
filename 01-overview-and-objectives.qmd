@@ -1,6 +1,6 @@
 # Overview and Objectives {#sec-overview}
 
-## Growing support for terrestrial Nature-based Climate Solutions in the United States
+## Growing support for terrestrial Nature-based Climate Solutions in the United States {#sec-support}
 
 **The impacts of climate change are accelerating non-linearly with devastating consequences, and mitigating the problem is fundamental for the national interest and societal well-being.** More frequent and intense wildfires, droughts, floods, and heatwaves are already posing grave and interconnected threats to agriculture, human health, biodiversity, and physical infrastructure[@walker-et-al19; @novick-et-al22]. The scientific consensus on how to reverse the course of climate change is clear – we need to dramatically reduce, and eventually eliminate, anthropogenic emissions of greenhouse gases from fossil fuel burning, other industrial processes, and land management practices. However, given the relatively slow pace of mitigation to date, emissions reductions alone will likely be insufficient to prevent dangerously high levels of warming6, and they will need to be complemented by approaches for removing CO2 directly from the atmosphere.
 
@@ -19,7 +19,7 @@ Right now, NbCS strategies have strong and growing support from a unique coaliti
 
 ![In the bottom of the figure, the length of the bar indicates (qualitatively) the expected carbon mitigation potential, and the color represents uncertainty around this potential. Icons indicating relevant co-benefits. Based largely on information presented in Farigone et al. 201829. The top of the figure highlights some of the most pressing knowledge gaps (see @sec-overview for more detail).](/img/01-nature-climate-solutions.jpg "Title: Terrestrial Nature-based Climate Solutions in the United States."){fig-alt="A Chart of Terrestrial Nature-based Climate Solutions in the United States." #fig-terrestrial-nature-solutions}
 
-## Key criteria, limitations, and opportunities
+## Key criteria, limitations, and opportunities {#sec-criteria}
 
 While there is ample justification for implementing NbCS based on their co-benefits alone, for NbCS to succeed specifically as climate mitigation tools, they must meet four essential criteria:
 
@@ -44,7 +44,7 @@ Fortunately, substantial opportunity exists to address this uncertainty by harne
 - **Credible:** The policy instruments used to incentivize NbCS rely on monitoring and quantification tools that are rigorously standardized and cross-compared, with open and transparent data and code sharing, allowing for independent validation of all activities and projections.
 :::
 
-## A path forward
+## A path forward {#sec-path}
 
 The objective of this report, which is co-authored by experts in both NbCS science and implementation, is to describe the technologies, tools and approaches necessary to support robust, scalable, and credible NbCS strategies for the US. The report is organized around the identification of key knowledge gaps and pathways to close them, providing a road map for actionable, cross-sectoral information to foster NbCS strategies that work while avoiding energy wasted on NbCS strategies that have limited environmental benefits or the potential to backfire and exacerbate climate change. The criteria for robust, scalable, and credible NbCS defined in Box 1.
 
