@@ -36,7 +36,79 @@ book:
           postal-code: 01610-1477
           url: https://www.clarku.edu/
       url: https://www2.clarku.edu/faculty/facultybio.cfm?id=715
-    - name: et alia
+    - name: 
+        given: Benjamin
+        family: Runkle
+        literal: Benjamin Runkle
+      affiliations:
+        - name: University of Arkansas
+          url: https://www.uark.edu/
+      url: https://engineering.uark.edu/directory/index/uid/brrunkle/name/Benjamin-Runkle/
+    - name: William Anderegg
+      url: https://faculty.utah.edu/u6003057-WILLIAM_ANDEREGG/research/index.hml
+      affiliations:
+        - name: University of Utah
+          url: https://www.utah.edu/
+    - name: Dave Hollinger
+      url: https://www.fs.usda.gov/research/about/people/dhollinger
+      affiliations:
+        - name: USDA Forest Service
+          url: https://www.fs.usda.gov/
+    - name: Marcy Litvak
+      url: https://biology.unm.edu/people/faculty/profile/litvak_marcy-e.html
+      affiliations:
+        - name: University of New Mexico
+          url: https://www.unm.edu/
+    - name: Caroline Normile
+      url: https://bipartisanpolicy.org/person/caroline-normile/
+      affiliations:
+        - name: Bipartisan Policy Center
+          url: https://bipartisanpolicy.org/
+    - name: Gyami Shrestha
+      affiliations: formerly US Carbon Cycle Science Program
+    - name: Maya Almaraz 
+      affiliations: Princeton University
+    - name: Christa Anderson
+      affiliations: World Wildlife Fund
+    - name: Mallory Barnes
+      affiliations: Indiana University
+    - name: Dennis Baldocchi
+      affiliations: University of California, Berkeley
+    - name: Lily Colburn
+      affiliations: U.S. Climate Alliance
+    - name: Danny Cullenward
+      affiliations: CarbonPlan
+    - name: Margaret Evans
+      affiliations: University of Arizona
+    - name: Kaiyu Guan
+      affiliations: University of Illinois
+    - name: Trevor Keenan
+      affiliations:
+        - University of California, Berkeley
+        - Lawrence Berkeley National Lab
+    - name: Rachel Lamb
+      affiliations: University of Maryland
+    - name: Elizabeth Larson
+      affiliations: North American Carbon Program
+    - name: Emily Oldfield
+      affiliations: Environmental Defense Fund
+    - name: Benjamin Poulter
+      affiliations: NASA
+    - name: Julian Reyes
+      affiliations: USDA Climate Hubs
+    - name: Jonathan Sanderman
+      affiliations: Woodwell Climate Research Center
+    - name: Paul Selmants
+      affiliations: USGS
+    - name: Edil Sepulveda Carlo
+      affiliations: NASA
+    - name: Margaret Torn
+      affiliations: Lawrence Berkeley National Lab
+    - name: Anna Trugman
+      affiliations: University of California, Santa Barbara
+    - name: Christopher Woodall
+      affiliations: USDA Forest Service
+
   date: "10/12/2022"
   language: en
   downloads: [pdf, epub]

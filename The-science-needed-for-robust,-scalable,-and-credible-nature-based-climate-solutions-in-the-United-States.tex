@@ -180,7 +180,7 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={The science needed for robust, scalable, and credible nature-based climate solutions in the United States},
-  pdfauthor={et alia},
+  pdfauthor={William Anderegg; Dave Hollinger; Marcy Litvak; Caroline Normile; Gyami Shrestha; Maya Almaraz; Christa Anderson; Mallory Barnes; Dennis Baldocchi; Lily Colburn; Danny Cullenward; Margaret Evans; Kaiyu Guan; Trevor Keenan; Rachel Lamb; Elizabeth Larson; Emily Oldfield; Benjamin Poulter; Julian Reyes; Jonathan Sanderman; Paul Selmants; Edil Sepulveda Carlo; Margaret Torn; Anna Trugman; Christopher Woodall},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -198,12 +198,20 @@ nature-based climate solutions in the United States}
 \makeatother
 \subtitle{An Example of an IUB Libraries Scholarly Communication
 Deparment Published Report}
-\author{Kim Novick \and Christopher Williams \and et alia}
+\author{Kim Novick \and Christopher Williams \and Benjamin
+Runkle \and William Anderegg \and Dave Hollinger \and Marcy
+Litvak \and Caroline Normile \and Gyami Shrestha \and Maya
+Almaraz \and Christa Anderson \and Mallory Barnes \and Dennis
+Baldocchi \and Lily Colburn \and Danny Cullenward \and Margaret
+Evans \and Kaiyu Guan \and Trevor Keenan \and Rachel Lamb \and Elizabeth
+Larson \and Emily Oldfield \and Benjamin Poulter \and Julian
+Reyes \and Jonathan Sanderman \and Paul Selmants \and Edil Sepulveda
+Carlo \and Margaret Torn \and Anna Trugman \and Christopher Woodall}
 \date{2022-10-12}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, enhanced, boxrule=0pt, breakable, frame hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, interior hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -219,9 +227,6 @@ Deparment Published Report}
 
 \markboth{Front Matter}{Front Matter}
 
-\textbf{\href{https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf}{Web
-PdF}}
-
 This report emerged from a workshop in Washington, DC, June 28-29th,
 2022. Workshop funding and programmatic support came from the Department
 of Energy's
@@ -234,28 +239,42 @@ Program}.
 The views expressed in this report do not necessarily reflect the views
 of individual contributing authors or their respective institutions.
 
-\textbf{Acknowledgements:} The report authors are grateful for the
-support provided by the Indiana University O'Neill School of Public and
-Environmental Affairs (Indiana University - Bloomington), the AmeriFlux
-Management Project, and the U.S. Carbon Cycle Science Program for
-supporting the workshop and the writing process. We especially
-acknowledge Katherine Devich and Nikki Rolf Boyd for logistical support
-during the workshop, and Christin Buechner for programmatic support
-leading up to the event. Jeff Atkins, Connor Nolan, Rachel Oidtman, Ann
-Raiho, and Haley Ritger are gratefully acknowledged for the feedback on
-an earlier version of the report. We are indebted to the full set of
-workshop participants for their constructive discussions and engagement,
-and we acknowledge other members of the AmeriFlux Natural Climate
-Solutions working group for a series of conversations over the past two
-years that provided the genesis for this workshop and paper. We are
-grateful for the creative contributions of William Scavone (Kestrel
-Studio - kestrelstudio.com), Mike Jackson, and Sean Miller to the
-report's graphics and formatting.
+\hypertarget{acknowledgements}{%
+\section*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{section}{Acknowledgements}
 
-\textbf{Recommended Citation:} Novick, K. et
-al.~\href{https://doi.org/10.5967/n7r9-7j83}{The science needed for
-robust, scalable, and credible nature-based climate solutions in the
-United States: Full Report}. (2022)
+\markright{Acknowledgements}
+
+The report authors are grateful for the support provided by the
+\href{https://oneill.indiana.edu/}{Indiana University O'Neill School of
+Public and Environmental Affairs}, the AmeriFlux Management Project, and
+the U.S. Carbon Cycle Science Program for supporting the workshop and
+the writing process. We especially acknowledge Katherine Devich and
+Nikki Rolf Boyd for logistical support during the workshop, and Christin
+Buechner for programmatic support leading up to the event. Jeff Atkins,
+Connor Nolan, Rachel Oidtman, Ann Raiho, and Haley Ritger are gratefully
+acknowledged for the feedback on an earlier version of the report. We
+are indebted to the full set of workshop participants for their
+constructive discussions and engagement, and we acknowledge other
+members of the AmeriFlux Natural Climate Solutions working group for a
+series of conversations over the past two years that provided the
+genesis for this workshop and paper. We are grateful for the creative
+contributions of William Scavone (\href{kestrelstudio.com}{Kestrel
+Studio}), Mike Jackson, and Sean Miller to the report's graphics and
+formatting.
+
+Cover image painting by Sean C. Miller of Washington, Iowa, USA. All
+rights reserved.
+
+\hypertarget{recommended-citation}{%
+\section*{Recommended Citation}\label{recommended-citation}}
+\addcontentsline{toc}{section}{Recommended Citation}
+
+\markright{Recommended Citation}
+
+Novick, K. et al.~\href{https://doi.org/10.5967/n7r9-7j83}{The science
+needed for robust, scalable, and credible nature-based climate solutions
+in the United States: Full Report}. (2022)
 
 \bookmarksetup{startatroot}
 
@@ -523,7 +542,7 @@ integrate the best-available science into next-generation information
 systems to support effective NbCS programs and policy that address all
 four key criteria.
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, toprule=.15mm, breakable, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, opacitybacktitle=0.6, toptitle=1mm, opacityback=0, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Elements of robust, scalable, and credible NbCS}, arc=.35mm, leftrule=.75mm, rightrule=.15mm, bottomrule=.15mm, left=2mm, titlerule=0mm]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Elements of robust, scalable, and credible NbCS}, leftrule=.75mm, left=2mm, colback=white, breakable, bottomtitle=1mm, bottomrule=.15mm, toprule=.15mm, titlerule=0mm, opacityback=0, toptitle=1mm, rightrule=.15mm]
 
 \begin{itemize}
 \tightlist
