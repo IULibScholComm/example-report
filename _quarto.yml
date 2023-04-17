@@ -146,7 +146,7 @@ format:
   html:
     theme: 
       light: litera
-      dark: darkly
+      dark: solarized
     toc: true
     toc-title: Contents
     toc-expand: true
