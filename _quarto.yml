@@ -4,8 +4,8 @@ project:
 
 book:
   title: "The science needed for robust, scalable, and credible nature-based climate solutions in the United States"
-  subtitle: An Example of an IUB Libraries Scholarly Communication Deparment Published Report
-  description: An example IUB Libraries Scholarly Communication publication
+  subtitle: Full Report
+  description: An example IUB Libraries Scholarly Communication Deparment Published Report
   doi: "10.5967/n7r9-7j83"
   author: 
     - name: 
@@ -144,7 +144,9 @@ google-scholar: true
 
 format:
   html:
-    theme: litera
+    theme: 
+      light: litera
+      dark: slate
     toc: true
     toc-title: Contents
     toc-expand: true
