@@ -163,14 +163,14 @@ google-scholar: true
 
 format:
   html:
-    theme: sandstone
+    theme: litera
     toc: true
     toc-title: Contents
     toc-expand: true
     number-sections: true
     anchor-sections: true
     smooth-scroll: true
-    link-external-icon: true
+    # link-external-icon: true
     link-external-newwindow: true
     comments:
       hypothesis: true
