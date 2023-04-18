@@ -114,6 +114,7 @@ book:
   downloads: [pdf, epub]
 
   cover-image: /img/front-cover.jpg
+  cover-image-alt: "stream surrounded by grass and trees"
 
   chapters:
     - index.qmd
@@ -126,9 +127,10 @@ bibliography: references.bib
 site-url: https://pages.github.iu.edu/amazel/example-report/
 repo-url: https://github.iu.edu/amazel/example-report
 issue-url: https://github.iu.edu/amazel/example-report/issues/new
-repo-actions: [edit, issue]
+repo-actions: [edit, issue, source]
 pdf-url: https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf
 favicon: /img/favicon_io/favicon.ico
+sharing: [twitter, facebook]
 twitter-card: 
   image: /img/front-cover.jpg
   card-style: summary
@@ -144,9 +146,7 @@ google-scholar: true
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: sandstone
     toc: true
     toc-title: Contents
     toc-expand: true
@@ -162,3 +162,4 @@ format:
   pdf:
     documentclass: scrreprt
     keep-tex: true
+    font-family: libertinus
