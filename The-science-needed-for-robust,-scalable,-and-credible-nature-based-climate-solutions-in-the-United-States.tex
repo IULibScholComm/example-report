@@ -4,13 +4,11 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  12pt,
   letterpaper,
   DIV=11,
   numbers=noendperiod]{scrreprt}
 
 \usepackage{amsmath,amssymb}
-\usepackage{setspace}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -212,7 +210,7 @@ Carlo \and Margaret Torn \and Anna Trugman \and Christopher Woodall}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, enhanced, boxrule=0pt, interior hidden, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, sharp corners, boxrule=0pt, frame hidden, interior hidden, breakable, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -220,7 +218,6 @@ Carlo \and Margaret Torn \and Anna Trugman \and Christopher Woodall}
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-\setstretch{1.25}
 \bookmarksetup{startatroot}
 
 \hypertarget{front-matter}{%
@@ -543,7 +540,7 @@ integrate the best-available science into next-generation information
 systems to support effective NbCS programs and policy that address all
 four key criteria.
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, rightrule=.15mm, toptitle=1mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toprule=.15mm, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Elements of robust, scalable, and credible NbCS}, opacitybacktitle=0.6, left=2mm, bottomrule=.15mm, colback=white, opacityback=0, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, bottomrule=.15mm, breakable, left=2mm, bottomtitle=1mm, arc=.35mm, toprule=.15mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Elements of robust, scalable, and credible NbCS}, rightrule=.15mm, opacitybacktitle=0.6, opacityback=0]
 
 \begin{itemize}
 \tightlist
@@ -793,7 +790,7 @@ the CO2 fertilization effect, and their interactions. Furthermore,
 the carbon cycle impacts of patchy disturbances, particularly fire and
 beetle outbreaks, is also a major unknown.}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, rightrule=.15mm, toptitle=1mm, breakable, colbacktitle=quarto-callout-important-color!10!white, colframe=quarto-callout-important-color-frame, toprule=.15mm, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.1: Knowledge gaps related to data scarcity}, opacitybacktitle=0.6, left=2mm, bottomrule=.15mm, colback=white, opacityback=0, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, coltitle=black, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, colback=white, bottomrule=.15mm, breakable, left=2mm, bottomtitle=1mm, arc=.35mm, toprule=.15mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.1: Knowledge gaps related to data scarcity}, rightrule=.15mm, opacitybacktitle=0.6, opacityback=0]
 
 \textbf{Gap 2.1a:} Many categories of NbCS are under-represented in
 existing networks, and field trial data are scarce.
@@ -949,8 +946,8 @@ important to consider in wetlands and many agricultural systems. We
 urgently need strategies to resolve NbCS-driven changes to these GHGs
 with a precision that overcomes uncertainty due to natural variability.
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, rightrule=.15mm, toptitle=1mm, breakable, colbacktitle=quarto-callout-important-color!10!white, colframe=quarto-callout-important-color-frame, toprule=.15mm, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.2: Knowledge gaps related to a historic emphasis on a limited set
-of carbon stocks}, opacitybacktitle=0.6, left=2mm, bottomrule=.15mm, colback=white, opacityback=0, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, coltitle=black, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, colback=white, bottomrule=.15mm, breakable, left=2mm, bottomtitle=1mm, arc=.35mm, toprule=.15mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.2: Knowledge gaps related to a historic emphasis on a limited set
+of carbon stocks}, rightrule=.15mm, opacitybacktitle=0.6, opacityback=0]
 
 \textbf{Gap 2.2a:} NbCS assessments and protocols lack ecosystem-scale
 perspectives that integrate over all relevant carbon sources and sinks.
@@ -1013,8 +1010,8 @@ matches the scale of individual farms and forest stands are likely
 infeasible in the near term. However, maps made at relatively fine
 scales (e.g.~county-scale) may be possible for some NbCS strategies.
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, rightrule=.15mm, toptitle=1mm, breakable, colbacktitle=quarto-callout-important-color!10!white, colframe=quarto-callout-important-color-frame, toprule=.15mm, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.3: Knowledge gaps preventing policy-relevant mapping of NbCS
-mitigation potentials}, opacitybacktitle=0.6, left=2mm, bottomrule=.15mm, colback=white, opacityback=0, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, coltitle=black, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, colback=white, bottomrule=.15mm, breakable, left=2mm, bottomtitle=1mm, arc=.35mm, toprule=.15mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.3: Knowledge gaps preventing policy-relevant mapping of NbCS
+mitigation potentials}, rightrule=.15mm, opacitybacktitle=0.6, opacityback=0]
 
 \textbf{Gap 2.3a:} Especially in agricultural and wetland systems, we
 lack spatially-resolved maps of NbCS mitigation potentials, preventing
@@ -1111,7 +1108,7 @@ from climate models, which often struggle to characterize resulting
 temperature changes with sufficient precision to match the scale of NbCS
 interventions.
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, rightrule=.15mm, toptitle=1mm, breakable, colbacktitle=quarto-callout-important-color!10!white, colframe=quarto-callout-important-color-frame, toprule=.15mm, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.4: Knowledge gaps related to biophysical impacts}, opacitybacktitle=0.6, left=2mm, bottomrule=.15mm, colback=white, opacityback=0, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, coltitle=black, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, colback=white, bottomrule=.15mm, breakable, left=2mm, bottomtitle=1mm, arc=.35mm, toprule=.15mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Box 2.4: Knowledge gaps related to biophysical impacts}, rightrule=.15mm, opacitybacktitle=0.6, opacityback=0]
 
 \textbf{Gap 2.4a:} We lack a comprehensive framework for understanding
 how NbCS impact local water cycling.
