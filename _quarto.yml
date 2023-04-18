@@ -113,7 +113,7 @@ book:
   language: en
   downloads: [pdf, epub]
 
-  cover-image: /img/front-cover.jpg
+  cover-image: img/front-cover.jpg
   cover-image-alt: "stream surrounded by grass and trees"
 
   chapters:
@@ -122,35 +122,36 @@ book:
     - 02-knowledge-gaps.qmd
     - bibliography.qmd
 
+  pdf-url: https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf
+  favicon: img/front-cover.jpg
+  sharing: [twitter, facebook]
+  twitter-card: 
+    image: img/front-cover.jpg
+    card-style: summary
+  open-graph: true
+
+  sidebar:
+    logo: img/front-cover.jpg
+    tools: 
+      - icon: person
+        href: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
+      - icon: twitter
+        href: https://twitter.com/iulibraries?lang=en
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.iu.edu/iusw/example-report
+          - text: Report a Bug
+            url:  https://github.iu.edu/iusw/example-report/issues
+
+
+  reader-mode: true
+
 bibliography: references.bib
-
-sidebar:
-  logo: /img/front-cover.jpg
-  tools: 
-    - icon: person
-      href: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
-    - icon: twitter
-      href: https://twitter.com/iulibraries?lang=en
-    - icon: github
-      menu:
-        - text: Source Code
-          url:  https://github.iu.edu/iusw/example-report
-        - text: Report a Bug
-          url:  https://github.iu.edu/iusw/example-report/issues
-  contents: auto
-
-reader-mode: true
-
 # site-url: https://pages.github.iu.edu/iusw/example-report/
 # repo-url: https://github.iu.edu/iusw/example-report
 # repo-actions: [edit]
-pdf-url: https://scholarworks.iu.edu/dspace/bitstream/handle/2022/28264/FullReport_20221011_uncoupled.pdf
-favicon: /img/front-cover.jpg
-sharing: [twitter, facebook]
-twitter-card: 
-  image: /img/front-cover.jpg
-  card-style: summary
-open-graph: true
+
 
 citation:
   type: document
@@ -180,4 +181,4 @@ format:
     keep-tex: true
     font-family: libertinus
   epub:
-    cover-image: /img/front-cover.jpg
+    cover-image: img/front-cover.jpg
