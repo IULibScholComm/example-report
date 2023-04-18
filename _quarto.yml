@@ -179,6 +179,12 @@ format:
   pdf:
     documentclass: scrreprt
     keep-tex: true
-    font-family: libertinus
+    # font-family: libertinus
+    # mainfont: libertinus
+    # fontfamilyoptions:
+    #  - osf
+    #  - p
+    fontsize: 12pt
+    linestretch: 1.25
   epub:
     cover-image: img/front-cover.jpg
