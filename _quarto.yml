@@ -145,7 +145,7 @@ book:
             url:  https://github.iu.edu/iusw/example-report/issues
 
 
-  reader-mode: true
+  # reader-mode: true
 
 bibliography: references.bib
 # site-url: https://pages.github.iu.edu/iusw/example-report/
