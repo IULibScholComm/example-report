@@ -163,7 +163,9 @@ google-scholar: true
 
 format:
   html:
-    theme: litera
+    theme: 
+      light: flatly
+      dark: darkly
     toc: true
     toc-title: Contents
     toc-expand: true
